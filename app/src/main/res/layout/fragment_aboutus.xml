@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e1a2a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="workexperiencehub.lk"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textColor="#ffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="support@workexperiencehub.lk"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:fontFamily="@font/poppins_regular"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/txt_para"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffff"
+                android:text="We are not just another institute which teaches you the theories. Instead we challenge you to create your own projects in a live and professional environment. This way of learning has been proven in many scenarios as one of the most effective. At Work Experience Hub we have only Co-workers and no Teachers. Work Experience Hub powered by Archmage Solutions has a unique team with experiences in many areas ranging from Mobile Application Development to Product Development to deliver effective and engaging creative experiences online. You will be working with these seasoned co-workers will guide you when needed."
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <ImageButton
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:id="@+id/img_call"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="110dp"
+                android:layout_marginLeft="110dp"
+                android:src="@drawable/call_40px"
+                android:background="@drawable/round_shape" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+       <ImageButton
+           android:layout_marginRight="110dp"
+           android:layout_marginLeft="110dp"
+           android:id="@+id/img_email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/mail_40px"
+           android:background="@drawable/round_shape"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

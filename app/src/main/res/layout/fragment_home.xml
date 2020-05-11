@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/main_menu"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <ImageView
+                android:background="@drawable/white_line"
+                android:id="@+id/horizon_one"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignTop="@+id/txt_title" />
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="BECOME A PROFESSIONAL \n WITH US"
+                android:textColor="#ffff"
+                android:textSize="18sp"
+                android:padding="10dp"/>
+
+            <ImageView
+                android:id="@+id/horizon_two"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignBottom="@+id/txt_title"
+                android:background="@drawable/white_line" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="WHO WE ARE"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:background="#FF0000" />
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/poppins_extralight"
+            android:gravity="center"
+            android:text="As the demand for the professionals with hands-on experiences is ever increasing, we, at Work Experience Hub, desire to groom the fresh graduates who come to the Information Technology field by giving them an opportunity to be a part of a modern-day software development company. We aim to ensure that all of our students have the opportunity to develop a range of skills, attributes, knowledge and experience to enhance your employability and employment prospects. "
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="CAREER TYPES"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:background="#FF0000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="#f5f5f5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="100dp"
+                android:src="@drawable/android_icon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Android Development"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/poppins_extralight"
+                android:gravity="center"
+                android:text="Experience the process of creating a world class app which is designed and developed according to international standards."
+                android:textColor="#666666"
+                android:textSize="15sp"/>
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:background="@drawable/round_shape"
+                android:id="@+id/apply_android"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="#666666"
+                android:text="APPLY NOW " />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="120dp"
+                android:src="@drawable/ios_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="iOS Development"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/poppins_extralight"
+                android:textColor="#666666"
+                android:gravity="center"
+                android:text="Experience the process of creating a world class app which is designed and developed according to international standards."
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginRight="140dp"
+                android:background="@drawable/round_shape"
+                android:id="@+id/apply_ios"
+                android:textColor="#666666"
+                android:fontFamily="@font/poppins_regular"
+                android:text="APPLY NOW " />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="100dp"
+                android:src="@drawable/web_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Web Development"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/poppins_extralight"
+                android:textColor="#666666"
+                android:gravity="center"
+                android:text="Create fascinating websites according to the world standards using the most recent technologies and methods of web design."
+                android:textSize="15sp" />
+
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:background="@drawable/round_shape"
+                android:id="@+id/apply_web"
+                android:textColor="#666666"
+                android:fontFamily="@font/poppins_regular"
+                android:text="APPLY NOW " />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="100dp"
+                android:src="@drawable/graphic_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Graphic Design"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/poppins_extralight"
+                android:textColor="#666666"
+                android:gravity="center"
+                android:text="Learn to unleash your inner artist with the latest technologies and concepts"
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:background="@drawable/round_shape"
+                android:id="@+id/apply_graphic"
+                android:textColor="#666666"
+                android:fontFamily="@font/poppins_regular"
+                android:text="APPLY NOW " />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="100dp"
+                android:src="@drawable/projects_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Project Management"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/poppins_extralight"
+                android:textColor="#666666"
+                android:gravity="center"
+                android:text="Manage multiple projects as you experience the challenges and excitement of delivering and achieving goals as a project manager"
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:background="@drawable/round_shape"
+                android:id="@+id/apply_projectmanagement"
+                android:textColor="#666666"
+                android:fontFamily="@font/poppins_regular"
+                android:text="APPLY NOW " />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="100dp"
+                android:src="@drawable/social_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Social Media"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/poppins_extralight"
+                android:textColor="#666666"
+                android:gravity="center"
+                android:text="Manage company social media channels, including Facebook, LinkedIn, Twitter, and other relevant online platforms."
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/round_shape"
+                android:id="@+id/apply_socialmedia"
+                android:textColor="#666666"
+                android:fontFamily="@font/poppins_regular"
+                android:text="APPLY NOW "/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

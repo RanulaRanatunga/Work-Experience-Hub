@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AndroidDevelopment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ToolbarTheme"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="ANDROID DEVELOPMENT"
+                        android:layout_marginRight="65dp"
+                        android:textColor="#ffff"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center_vertical"
+                        android:id="@+id/txt_toolbar"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/main_menu"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:background="@drawable/white_line"
+                android:id="@+id/horizon_one"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_alignTop="@+id/txt_title" />
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="ANDROID DEVELOPMENT"
+                android:textColor="#ffff"
+                android:textSize="18sp"
+                android:padding="10dp"/>
+
+            <ImageView
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:id="@+id/horizon_two"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignBottom="@+id/txt_title"
+                android:background="@drawable/white_line" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="ABOUT"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:background="#FF0000" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/poppins_extralight"
+            android:text="Experience the process of creating a world class app which is designed and developed according to international standards."
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:text="What you will experience at Work Experience Hub?"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#FF0000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Designing an international level application."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Planning your mobile application to meet real life delaines and delivery points."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Creating an Android mobile application using the latest and most widely used technologies and best practices."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Presenting the designs and final products to the clients."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Assuring the quality of your product by conducting professional QA tests."/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

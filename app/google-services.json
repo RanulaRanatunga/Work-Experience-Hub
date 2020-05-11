@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "179705164697",
+    "firebase_url": "https://work-experience-hub.firebaseio.com",
+    "project_id": "work-experience-hub",
+    "storage_bucket": "work-experience-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179705164697:android:fecec64d8f58369e5e9908",
+        "android_client_info": {
+          "package_name": "com.archmage.workexperiencehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179705164697-kur197rmegvfmssh8mtni51f51ecgnrh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archmage.workexperiencehub",
+            "certificate_hash": "2d13832a949dfe55d412567c11355c98d9597b38"
+          }
+        },
+        {
+          "client_id": "179705164697-5s3f99vd4u2agko4unajppr2n0i1r41k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwNOezlinhrm7ZaaCnBygijgEZIresrZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179705164697-5s3f99vd4u2agko4unajppr2n0i1r41k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
